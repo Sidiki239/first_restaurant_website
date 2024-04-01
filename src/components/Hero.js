@@ -46,13 +46,13 @@ Commander tout de suite !!
 </div>
 
     </div>
-   {width < 500 &&<center   onClick={()=>navigate("/menu")} style={{textAlign:"center",justifyContent:"center",zIndex:5}}><a href='/menu' className='  '>
+   {width < 500 &&<div   onClick={()=>navigate("/menu")} className='bg-red-100 w-auto justify-center' style={{textAlign:"center",justifyContent:"center",zIndex:5}}><a href='/menu' className='z-20  '>
 <button 
   className='bg-accent text-white px-4 py-2 text-2xl  rounded-3xl sm:text-3xl  lg:text-4xl  lg:px-4 lg:py-2 cursor-pointer shadow-4xl'
   onClick={()=>navigate("/menu")}
 >
  Explorer
-</button></a></center>  } 
+</button></a></div>  } 
 
     <br/><br/><br/>
     
