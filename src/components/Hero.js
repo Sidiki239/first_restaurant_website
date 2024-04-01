@@ -43,10 +43,10 @@ Commander tout de suite !!
 
 </div>
 <div style={{textAlign: width < 500 ? "center": "inherit" }}  >
-<a    href='/menu' className='lg:ml-5 lg:t-10  sm:w-full   z-10 relative     lg:text-left'>
+<a    href='./menu' className='lg:ml-5 lg:t-10  sm:w-full   z-10 relative     lg:text-left'>
 <button  style={{textAlign:"center",alignSelf:"center",}} 
   className='bg-accent text-white px-4 py-2 text-2xl  lg:rounded-5xl rounded-3xl sm:text-3xl  lg:text-5xl lg:ml-4 lg:mt-6 lg:px-8 lg:py-2 cursor-pointer shadow-4xl'
-  onClick={()=>navigate("menu")}
+  onClick={()=>navigate("./menu")}
 >
  Explorer
 </button></a> 
