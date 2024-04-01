@@ -1,8 +1,10 @@
 import React from 'react'
 import Dash from './Dash'
+import { useNavigate } from 'react-router-dom'
 
 import wrap from "../assets/wrap.jpg"
 function Feature() {
+  const navigate = useNavigate()
   return (
     <div className='container pt-2 mt-10'>
        <h1 className='text-6xl sm:text-5xl font-bold pt-2 text-center dark:text-white text-black'>
@@ -104,6 +106,8 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nulla consectetur r
  Voir le menu
 </button></a> 
 </center>
+
+
     </div>
   )
 }
