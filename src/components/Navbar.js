@@ -23,7 +23,11 @@ function Navbar({active}) {
   
   return (
 
-<div className='w-full z-10 relative b-10'> {/*
+<div className='w-full z-10 relative b-10'> 
+
+
+
+{/*
 <div className="bg-white">
 <header className="absolute inset-x-0 top-0 z-50">
   <nav className="flex items-center justify-between p-6 lg:px-8 bg-white border-black border-bottom-black" aria-label="Global" >
@@ -176,24 +180,24 @@ function Navbar({active}) {
 </div>
     </div>*/}
 
-<nav className=" bg-white border-gray-200 z-10  w-full  dark:bg-black">
+<nav className="  bg-white border-gray-200 z-10  w-full  dark:bg-black">
 
 
-    <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
+    <div class="flex flex-row  justify-between  mx-auto max-w-screen-xl p-4">
         <a href="../" className="flex items-center space-x-3 rtl:space-x-reverse ">
      
        <img src={logo} alt='logo_icon'  />
-        <span  className="self-center text-2xl dark:text-white text-black  font-semibold whitespace-nowrap ">Nom_Entreprise</span>
+        <span  className="self-center lg:text-2xl text-xl dark:text-white text-black  font-semibold whitespace-nowrap ">La Table Enchantée</span>
         </a>
-        <div class="flex items-center space-x-6 rtl:space-x-reverse">
-            <a href="tel:5541251234" class="text-sm  text-black dark:text-white hover:underline">
+        <div class="  rtl:space-x-reverse mt-1 ">
+          {/*  <a href="tel:5541251234" class="text-sm  text-black dark:text-white hover:underline">
             
             <i class="fa-solid fa-phone fa-beat text-accent text-xl"></i> &nbsp;
              <b className='dark:text-white text-black'
-            >(555) 412-1234</b></a>
+  >(555) 412-1234</b></a>*/}
 
-           
-          <DarkMode/>
+         
+          <DarkMode />
            
          
         </div>

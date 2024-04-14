@@ -122,8 +122,7 @@ Choose Best <span className='text-accent'>Nos menus menu</span>
           className={`${
             type === activeMenu ? 'bg-accent text-white' : ''
           } px-4 py-2 rounded-3xl text-[14px] sm:text-[16px]`}
-          onClick={() => ChangeMenu(type)}
-        >
+          onClick={() => ChangeMenu(type)}>
           {type}
         </li>
       ))}

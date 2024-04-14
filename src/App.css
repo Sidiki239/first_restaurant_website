@@ -3,6 +3,18 @@
 background-color: black;
 }
 
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Apparence de la barre de défilement */
+.darkmode ::-webkit-scrollbar-track {
+  background: black;
+}
+
+.darkmode ::-webkit-scrollbar-thumb {
+  background: white;
+}
 
 .dark-mode {
   color: white;

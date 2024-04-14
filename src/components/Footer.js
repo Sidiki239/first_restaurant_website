@@ -13,63 +13,21 @@ function Footer()  {
     const { darktheme, toggleTheme } = useTheme();
 
   return (
-    <div   className='container pt-30 mt-0 dark:bg-black  bg-white '>
- <hr/>
-<footer    className=" dark:bg-black  bg-white  ">
-    <div className=" w-full p-4 py-3 lg:py-4">
-        <div className=" sm:justify-between sm:flex-col   lg:flex-row  lg:flex   md:flex-col lg:justify-between    ">
-          <div className="mb-6 md:mb-0">
-              <a href="" className="flex items-center">
-<img src={logo} alt='logo_icon' /> 
-                  <span  className=" dark:text-white text-black self-center text-2xl font-semibold whitespace-nowrap ">&nbsp;Nom_Entreprise</span>
-              </a>
-          </div>
-        
-          <div className=" gap-4 sm:gap-6 sm:top-10 md:top-10  ">
-              <div>
-                  <h2   className="dark:text-white text-black ml-5  mb-4 text-sm font-semibold  uppercase ">Contact</h2>
-                  <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                      <li className="mb-4">
-                          <a href="" className="hover:underline">
-                          <div className="flex items-center">
-  <svg className="w-[23px] h-[23px] text-accent " aria-label="jdjjd" aria-hidden="false" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.3" d="m18.4 14.8-1.2-1.3a1.7 1.7 0 0 0-2.4 0l-.7.7a1.7 1.7 0 0 1-2.4 0l-1.9-1.9a1.7 1.7 0 0 1 0-2.4l.7-.6a1.7 1.7 0 0 0 0-2.5L9.2 5.6a1.6 1.6 0 0 0-2.4 0c-3.2 3.2-1.7 6.9 1.5 10 3.2 3.3 7 4.8 10.1 1.6a1.6 1.6 0 0 0 0-2.4Z"/>
-  </svg>
-  <span   className="ml-0 text-sm dark:text-white text-black ">(555) 412-1234</span>
-</div>
-   </a>   </li>
-                      <li className="mb-4">
-                          <a href="" className="hover:underline">
-                          <div className="flex  flex-row justify-start">
-                          <svg className="w-6 h-6 text-accent  " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
-    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.8 14h0a7 7 0 1 0-11.5 0h0l.1.3.3.3L12 21l5.1-6.2.6-.7.1-.2Z"/>
-  </svg>
-                        <span  className="ml-0 text-sm dark:text-white text-black ">Adresse, 80000 Agadir </span>
-                          </div>
-                          
+
+    <>
+  
+  
+        <section className="py-10 dark:bg-black   bg-white sm:pt-16 lg:pt-24">
+    <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl ">
+        <div className=" lg:flex-row flex-col  flex lg:justify-between ">
+            <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8  text-left">
+            <a href="" className="flex items-left">
+            <img src={logo} alt='logo_icon' /> 
+                              <span  className=" dark:text-white text-black self-center text-2xl font-semibold whitespace-nowrap ">&nbsp;La Table Enchantée</span>
                           </a>
-                      </li>
-<li>
-<a href='' className='hover:underline'>
-<div className='flex items-right'>
-<i class="fa-regular fa-envelope text-accent text-xl"></i>
-  <span className="ml-0 text-sm  dark:text-white text-black "  >&nbsp;emailentreprise@gmail.com </span>
+                <p className="text-base w-full leading-relaxed text-gray-600 mt-7">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
 
-</div>
-</a>
-</li>
-
-                  </ul>
-              </div>
-    
-          </div>
-      </div>
-      <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-      <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="" className="hover:underline">LOGO</a>Tous droits reserves
-          </span>
-          <div className="flex mt-4 sm:justify-center sm:mt-0">
+                <div className=" mt-4  text-left  sm:mt-0 ">
               <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
            <i class="fa-brands fa-facebook text-blue-500"></i>
                   <span className="sr-only">Facebook page</span>
@@ -88,12 +46,96 @@ function Footer()  {
               </a>
              
           </div>
-      </div>
+            </div>
+<div className=' flex lg:flex-row flex-col justify-center   gap-4 lg:gap-10'>
+            <div className='mt-10  lg:mt-0' >
+                <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">Contact</p>
+
+                <div>
+                <ul className="text-gray-500 dark:text-gray-400 font-medium mt-5">
+                    <li className="mb-4">
+                        <a href="" className="hover:underline">
+                        <div className="flex items-center">
+                        <i class="fa-solid fa-phone fa-beat text-accent"></i>
+<span   className="ml-0 text-sm dark:text-white text-black ">(555) 412-1234</span>
+</div>
+ </a>   </li>
+                    <li className="mb-4">
+                        <a href="" className="hover:underline">
+                        <div className="flex  flex-row justify-start">
+                        <i class="fa-solid fa-location-dot text-accent fa-beat"></i>
+                      <span  className="ml-0 text-sm dark:text-white text-black ">Adresse, 80000 Agadir </span>
+                        </div>
+                        
+                        </a>
+                    </li>
+<li>
+<a href='' className='hover:underline'>
+<div className='flex items-right'>
+<i class="fa-regular fa-clock fa-beat text-accent"></i>
+<span className="ml-0 text-sm  dark:text-white text-black "  >&nbsp; &nbsp;8:00 - 16:00</span>
+
+</div>
+</a>
+</li>
+
+                </ul>
+            </div>
+            </div>
+
+            <div >
+                <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">services</p>
+
+                <div>
+                <ul className="text-gray-500 dark:text-gray-400 font-medium mt-5">
+                    <li className="mb-4">
+                        <a href="" className="hover:underline">
+                        <div className="flex items-center">
+                        <i class="fa-solid fa-wifi text-accent "></i>
+<span   className="ml-0 text-sm dark:text-white text-black ">&nbsp; Wifi disponible</span>
+</div>
+ </a>   </li>
+                    <li className="mb-4">
+                        <a href="" className="hover:underline">
+                        <div className="flex  flex-row justify-start">
+                        <i class="fa-solid fa-square-parking text-accent"></i>
+                      <span  className="ml-0 text-sm dark:text-white text-black ">&nbsp;Place de parking </span>
+                        </div>
+                        
+                        </a>
+                    </li>
+<li>
+<a href='' className='hover:underline'>
+<div className='flex items-right'>
+<div className=" h-auto w-auto items-center justify-center rounded-lg bg-accent">
+<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moped" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+<path d="M18 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+<path d="M5 16v1a2 2 0 0 0 4 0v-5h-3a3 3 0 0 0 -3 3v1h10a6 6 0 0 1 5 -4v-5a2 2 0 0 0 -2 -2h-1" />
+<path d="M6 9l3 0" />
+</svg>
+</div>
+<span className="ml-0 text-sm  dark:text-white text-black "  >&nbsp; &nbsp;Livraison a domicile</span>
+
+</div>
+</a>
+</li>
+
+                </ul>
+            </div>
+            </div>
+            </div>
+           
+        </div>
+
+        <hr className="mt-5 mb-5 border-gray-200" />
+
+        <p className="text-sm text-center text-gray-600">© Tout droits reserves <br/>Fait par <b><a href="https://my-portfolio-red-alpha.vercel.app/">Sidiki Dembele</a></b> </p>
     </div>
-</footer>
+</section>
 
 
-    </div>
+    </>
   )
 }
 

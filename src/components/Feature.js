@@ -7,18 +7,16 @@ function Feature() {
   const navigate = useNavigate()
   return (
     <div className='container pt-2 mt-10'>
-       <h1 className='text-6xl sm:text-5xl font-bold pt-2 text-center dark:text-white text-black'>
+       <h1 className='lg:text-6xl text-4xl font-bold pt-2 text-center dark:text-white text-black'>
 Menus <span className='text-accent'>Speciaux</span>
 
         </h1>
 <center>
-<p className='max-w-[550px] pt-10 dark:text-gray-500 text-black text-center'>
+<p className='max-w-[550px] pt-5 dark:text-gray-500 text-black text-center mx-5'>
 
     Lorem ipsum dolor sit
      amet consectetur adipisicing
-      elit. Non sint amet consequuntur. 
-      Temporibus nihil pariatur quibusdam hic
-       velit porro voluptates doloremque molestiae 
+      elit. Non 
       
   </p> 
   </center>
@@ -42,9 +40,9 @@ src="https://images.pexels.com/photos/12419163/pexels-photo-12419163.jpeg?auto=c
   <span aria-hidden="true" className="absolute inset-0 " />
  Shrimp Salad
 </a>
-<p className=" bg-accent font-extrabold text-sm lg:text-xl text-white px-1 py-1 rounded-xl shadow-5xl ">130 DH</p></h3>
+<p  style={{borderRadius:"7px"}} className=" bg-accent font-extrabold text-sm lg:text-xl text-white px-1 py-1 shadow-5xl border-white border-2xl " >75 DH</p></h3>
 </div> 
-<p className='dark:text-gray-700 text-black text-[14px] xl:text-[16px] '>
+<p className='dark:text-gray-500 text-black text-[14px] xl:text-[16px] '>
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nulla consectetur recusandae mollitia. Tempore repellat animi odio ipsum temporibus, aperiam magni optio ut suscipit? Dolorem hic laudantium odit non commodi.
 
 </p>
@@ -66,8 +64,8 @@ src="https://images.pexels.com/photos/5836435/pexels-photo-5836435.jpeg?auto=com
   <span aria-hidden="true" className="absolute inset-0" />
   Breakfast of wrap
 </a>
-<p className=" bg-accent font-extrabold text-sm lg:text-xl text-white px-1 py-1 rounded-xl shadow-5xl ">185 DH</p></h3>
-<p className='text-gray-700 text-[14px] xl:text-[16px]'>
+<p  style={{borderRadius:"7px"}} className=" bg-accent font-extrabold text-sm lg:text-xl text-white px-1 py-1 shadow-5xl border-white border-2xl " >75 DH</p></h3>
+<p className='dark:text-gray-500 text-[14px] xl:text-[16px]'>
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nulla consectetur recusandae mollitia. Tempore repellat animi odio ipsum temporibus, aperiam magni optio ut suscipit? Dolorem hic laudantium odit non commodi.
 
 </p>
@@ -88,8 +86,8 @@ src="https://images.pexels.com/photos/248444/pexels-photo-248444.jpeg?auto=compr
   <span aria-hidden="true" className="absolute inset-0" />
 Salmon width Sushi
 </a>
-<p className=" bg-accent font-extrabold text-sm lg:text-xl text-white px-1 py-1 rounded-xl shadow-5xl border-white border-2xl " >75 DH</p></h3>
-<p className='text-gray-700 text-[14px] xl:text-[16px]'>
+<p  style={{borderRadius:"7px"}} className=" bg-accent font-extrabold text-sm lg:text-xl text-white px-1 py-1 shadow-5xl border-white border-2xl " >75 DH</p></h3>
+<p className='dark:text-gray-500 text-[14px] xl:text-[16px]'>
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nulla consectetur recusandae mollitia. Tempore repellat animi odio ipsum temporibus, aperiam magni optio ut suscipit? Dolorem hic laudantium odit non commodi.
 
 </p>

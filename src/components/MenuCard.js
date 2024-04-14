@@ -17,11 +17,10 @@ const MenuCard = ({img,title,desc,price}) => {
         <div>
 <h2>{title}</h2>
 <p className='text-[14px] text-gray-600 pt-1'>{desc}</p>
-
         </div>
-<p className='text-accent'>
-{price}
-</p>
+ 
+        <p className='text-white text-center'>
+   {price}</p>
 
 
     </div>
