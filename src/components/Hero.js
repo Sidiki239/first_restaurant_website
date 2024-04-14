@@ -14,7 +14,10 @@ const navigate = useNavigate()
     <>
     <div class="relative pt-5 pb-12 bg-black xl:pt-39 sm:pb-16 lg:pb-32 xl:pb-30 2xl:pb-56">
     <div class="absolute inset-0">
-<img class="object-cover w-full h-full  lg:h-full" src="https://img.freepik.com/free-photo/side-view-chicken-doner-wrapped-lavash-french-fries-wooden-cutting-board_140725-12780.jpg?t=st=1712887900~exp=1712891500~hmac=fd655314ca053500dc3cd1616e7c10c8e12a8afb323eef6ffe2f28e82739638f&w=740" alt="" />
+<img class="object-cover w-full h-full  lg:h-full"
+src="https://images.pexels.com/photos/1199958/pexels-photo-1199958.jpeg?auto=compress&cs=tinysrgb&w=600"
+// src="https://img.freepik.com/free-photo/side-view-chicken-doner-wrapped-lavash-french-fries-wooden-cutting-board_140725-12780.jpg?t=st=1712887900~exp=1712891500~hmac=fd655314ca053500dc3cd1616e7c10c8e12a8afb323eef6ffe2f28e82739638f&w=740" 
+alt="" />
     </div>
     <div class="relative z-50">
         <div class=" w-full  mx-auto text-center lg:px-12 ">
