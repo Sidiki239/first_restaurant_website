@@ -81,7 +81,7 @@ const ChangeMenu = (menuType) => {
         <h2   className="text-2xl font-bold tracking-tight dark:text-white  light:text-black ">Categories</h2>
         <h3   className="text-2xl font-normal tracking-tight dark:text-white  light:text-black  ">{activeMenu}</h3>
         </div>
-        <div className="mt-6 grid grid-cols-2 gap-x-3 gap-y-10 sm:grid-cols-1 lg:grid-cols-3 xl:gap-x-10">
+        <div className="mt-6 grid grid-cols-1 gap-x-3 gap-y-10 sm:grid-cols-1 lg:grid-cols-3 xl:gap-x-10">
           {menuType.map((product) => (
             <div   key={product.id}  className=" relative shadow-xl dark:shadow-sm dark:shadow-slate-50 pt-0   dark:border-gray-300  ">
               <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-60">
