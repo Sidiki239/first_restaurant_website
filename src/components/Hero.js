@@ -15,7 +15,7 @@ const navigate = useNavigate()
     <div class="relative pt-5 pb-12 bg-black xl:pt-39 sm:pb-16 lg:pb-32 xl:pb-30 2xl:pb-56">
     <div class="absolute inset-0">
 <img class="object-cover w-full h-full  lg:h-full"
-src="https://img.freepik.com/free-photo/hamburger-with-glass-water-side_188544-12233.jpg?t=st=1714999798~exp=1715003398~hmac=c29a67556c3ac94ccf1633a71d5e781486c0b02313920599f3cb1dbb21eac439&w=1060"
+src="https://img.freepik.com/free-photo/front-view-burgers-stand_141793-15545.jpg?t=st=1715000140~exp=1715003740~hmac=7b7826bec117a76c91e883559f40c2a3dda9a154df8c97215db52ebc9ccef223&w=996"
 // src="https://img.freepik.com/free-photo/side-view-chicken-doner-wrapped-lavash-french-fries-wooden-cutting-board_140725-12780.jpg?t=st=1712887900~exp=1712891500~hmac=fd655314ca053500dc3cd1616e7c10c8e12a8afb323eef6ffe2f28e82739638f&w=740" 
 alt="" />
     </div>
