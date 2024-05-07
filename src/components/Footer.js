@@ -130,8 +130,8 @@ function Footer()  {
 
         <hr className="mt-5 mb-5 border-gray-200" />
 
-        <p className="text-sm text-center text-gray-600">© Tout droits reserves <br/>Fait par <b><a href="https://my-portfolio-red-alpha.vercel.app/">Sidiki Dembele</a></b> </p>
-    </div>
+       <p className="text-sm text-center text-gray-600">© Fait par <b><a href="https://my-portfolio-red-alpha.vercel.app/"><u>Sidiki DEMBÉLÉ</u></a></b> </p>
+     </div>
 </section>
 
 
